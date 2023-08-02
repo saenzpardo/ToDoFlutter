@@ -1,3 +1,5 @@
+## Forked this app to use as a menu planner - not for commercial use
+
 # TO DO APP ❤️ Made with Flutter
 
 Full tutorial here: https://youtu.be/mMgr47QBZWA
