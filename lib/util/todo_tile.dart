@@ -33,12 +33,13 @@ class ToDoTile extends StatelessWidget {
           ],
         ),
         child: Container(
-          padding: EdgeInsets.all(4), // original 24
+          padding: EdgeInsets.all(8), // original 24
           decoration: BoxDecoration(
             color: Colors
                 .lightGreen[300], // was limeAccent --> like yellowAccent[700]
             borderRadius: BorderRadius.circular(12),
           ),
+
           child: Row(
             children: [
               // checkbox
@@ -52,11 +53,11 @@ class ToDoTile extends StatelessWidget {
               Text(
                 taskName,
                 style: TextStyle(
-
-                    // decoration: taskCompleted
-                    //     ? TextDecoration.lineThrough
-                    //     : TextDecoration.none,
-                    ),
+                  overflow: TextOverflow.ellipsis,
+                  // decoration: taskCompleted
+                  //     ? TextDecoration.lineThrough
+                  //     : TextDecoration.none,
+                ),
               ),
             ],
           ),
